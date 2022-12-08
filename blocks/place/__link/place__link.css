@@ -1,0 +1,14 @@
+.place__link {
+  margin: 7px 0 0;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: left;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+}
+
+.place__link:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
