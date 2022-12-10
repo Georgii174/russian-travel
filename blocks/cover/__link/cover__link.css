@@ -1,17 +1,18 @@
 .cover__link {
   text-decoration: none;
   background-color: rgba(16, 17, 18, 0.3);
-
-
+  padding: 0 20px 0;
 }
 
-.cover__link:hover {
-  background-color: rgba(16, 17, 18, 0.8);
-}
+
 
 @media screen and (min-width: 768px) {
   .cover__link {
     padding: 115px 104px 213px;
+  }
+
+  .cover__link:hover {
+    background-color: rgba(16, 17, 18, 0.8);
   }
 }
 

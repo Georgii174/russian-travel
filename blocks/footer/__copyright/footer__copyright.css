@@ -6,26 +6,29 @@
   color: #FFFFFF;
   padding: 47px 16px 24px;
   margin: 0;
+  min-width: 186px;
+
 }
 
 @media screen and (min-width: 768px) {
   .footer__copyright {
     line-height: 16px;
-
+    display: flex;
+    align-items: flex-end;
   }
 
 }
 
 @media screen and (min-width: 1024px) {
   .footer__copyright {
-    margin: 94px -49px 24px 0;
+    margin: 94px 0 24px;
     padding: 0;
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 1280px) {
   .footer__copyright {
-    margin: 88px -49px 24px 0;
+    margin: 88px 0 24px;
     padding: 0;
   }
 }
