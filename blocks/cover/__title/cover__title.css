@@ -19,7 +19,19 @@
     max-height: 152px;
     font-size: 72px;
     line-height: 76px;
+    padding: 115px 104px 0;
 
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .cover__title {
+    padding: 195px 232px 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cover__title {
+    padding: 245px 312px 0;
+  }
+}

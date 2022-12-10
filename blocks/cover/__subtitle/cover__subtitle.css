@@ -18,11 +18,20 @@
   max-height: 66px;
   font-size: 18px;
   line-height: 22px;
+  padding: 32px auto 115px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .cover__subtitle {
-    margin-top: 16px;
+    padding: 32px 332px 195px;
+
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cover__subtitle {
+    padding: 32px 412px 245px;
+
   }
 }
