@@ -3,7 +3,6 @@
   grid-template-columns: minmax(288px, 456px);
   gap: 12px;
   margin: 0;
-  /* justify-content: center; */
 }
 
 .place:last-child {
@@ -25,7 +24,9 @@
     gap: 32px;
   }
 
-
+  .place:last-child {
+    margin-top: -7px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -35,4 +36,7 @@
     gap: 40px;
   }
 
+  .place:last-child {
+    margin-top: -15px;
+  }
 }

@@ -1,5 +1,5 @@
 .footer__link {
-  font-family: 'Inter';
+  font-family: 'Inter', 'Arial', sans-serif;
   font-size: 24px;
   line-height: 24px;
   color: #FFFFFF;
@@ -11,9 +11,9 @@
   opacity: 0.8;
 }
 
-.footer__link:last-child {
+/* .footer__link:last-child {
   margin: 0;
-}
+} */
 
 @media screen and (min-width: 768px) {
   .footer__link {
@@ -24,11 +24,8 @@
   }
 }
 
-
 @media screen and (min-width: 1024px) {
   .footer__link {
-
+    margin: 0 -13px 0 0;
   }
-
-
 }

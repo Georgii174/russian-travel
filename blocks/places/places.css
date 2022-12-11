@@ -3,21 +3,16 @@
   margin: 0;
 }
 
-
-
 @media screen and (min-width: 768px) {
-  .places{
+  .places {
     margin: 17px 0 0;
   }
 
 }
 
 @media screen and (min-width: 1024px) {
-  .places{
+  .places {
     margin: 0;
   }
 
 }
-
-
-
