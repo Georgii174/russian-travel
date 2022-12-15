@@ -2,13 +2,15 @@
   margin: 20px 16px 12px;
   font-family: 'Inter', 'Arial', sans-serif;
   font-size: 16px;
-  line-height: 163%;
+  line-height: 26px;
   color: #FFFFFF;
+
 
 }
 
 .place__paragraph:last-child {
   margin: 23px 16px 0;
+  max-width: 284px;
 }
 
 @media screen and (min-width: 768px) {
@@ -18,17 +20,20 @@
 
   .place__paragraph:last-child {
     margin: 25px 0 0;
+    max-width: 350px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .place__paragraph {
-    font-size: 17px;
-    line-height: 164%;
-    margin: 18px 0 0;
+    font-size: 18px;
+    line-height: 29px;
+    margin: 6px 0 0;
+
   }
 
   .place__paragraph:last-child {
-    margin: 17px 0 0;
+    margin: 27px 0 0;
+    max-width: 485px;
   }
 }

@@ -4,19 +4,15 @@
   background-position: center center;
   background-size: cover;
   max-width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 86px;
-  object-fit: cover;
-
+  margin-top: 56px;
 
 }
 
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .cover {
-    min-height: 480px;
+    min-height: 492px;
+    margin: 0;
   }
 }
 

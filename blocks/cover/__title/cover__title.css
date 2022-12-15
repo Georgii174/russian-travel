@@ -7,9 +7,7 @@
   color: #FFFFFF;
   padding: 33px 16px 0;
   margin: 0 auto;
-  max-width: 288px;
-  max-height: 70px;
-
+  max-width: 260px;
 }
 
 
@@ -19,7 +17,7 @@
     max-height: 152px;
     font-size: 72px;
     line-height: 76px;
-    padding: 115px 104px 0;
+    padding: 127px 104px 0;
 
   }
 }
