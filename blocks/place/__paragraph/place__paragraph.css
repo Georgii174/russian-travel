@@ -28,12 +28,19 @@
   .place__paragraph {
     font-size: 18px;
     line-height: 29px;
-    margin: 6px 0 0;
+    margin: 15px 0 0;
 
   }
 
   .place__paragraph:last-child {
     margin: 27px 0 0;
     max-width: 485px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .place__paragraph {
+    margin: 6px 0 0;
+
   }
 }
