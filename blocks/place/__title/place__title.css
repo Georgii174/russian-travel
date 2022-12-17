@@ -19,16 +19,9 @@
 
 @media screen and (min-width: 1024px) {
   .place__title {
-    font-size: 72px;
-    line-height: 79px;
-    margin: 79px 0 0;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .place__title {
     font-size: 73px;
     line-height: 79px;
     margin: 79px 0 0;
   }
 }
+

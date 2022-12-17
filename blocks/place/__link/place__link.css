@@ -7,7 +7,7 @@
   text-align: left;
   text-decoration-line: underline;
   color: #FFFFFF;
-  max-width: 220px;
+  max-width: fit-content;
 }
 
 .place__link:hover {
